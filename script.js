@@ -8,7 +8,7 @@ fetch("https://api.github.com/repos/CIAg-Pompeia/ciag-pompeia.github.io/git/tree
         });
         projects.forEach(project => {
             document.querySelector("#projects").appendChild(parseHTML(`<div>
-                <img src="${project.cover}"/>
+                <img src="${project.cover}" onerror="this.src='_assets/empty.svg'"/>
                 <p>${project.name}</p>
             </div>`).body.firstChild)
         });

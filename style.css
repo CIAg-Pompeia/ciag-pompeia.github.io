@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+}
+
+#projects {
     background: #242e35;
     display: flex;
     height: 100vh;
@@ -13,8 +17,20 @@ body {
 
 #projects > div {
     text-align: center;
+    padding: 1em;
 }
 
 #projects > div > img {
     border-radius: 100%;
+    width: 225px;
+    aspect-ratio: 1/1;
+}
+
+
+#projects > div > p {
+    text-transform: uppercase;
+}
+
+.no-image {
+    position: absolute;
 }
