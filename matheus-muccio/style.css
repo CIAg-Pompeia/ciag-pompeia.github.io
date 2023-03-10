@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    background: #00132A;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+#logo {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: 1.2rem 0 0;
+}
+
