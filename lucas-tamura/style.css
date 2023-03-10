@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Code Pro;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #038eff, #c1ddf4);
+    min-height: 300vh;
+}
+
+
+
+
+/*ESTILIZAÇÃO DA POKEDEX*/
+
+.Pokemon__Nome, 
+.pokemon__type, 
+.card__type, 
+.card__name,
+.abilityOne,
+.abilityTwo{
+    text-transform: capitalize;
+}
+
+h1{
+    color: #787878;
+    font-family: 'Oxanium', cursive;
+    font-size: clamp(3vw, 3.5vw, 5vw);
+}
+
+h2{
+    color:#b0b0b0;
+    font-family: 'Oxanium', cursive;
+    font-size: clamp(2.5vw, 2.5vw, 3vw);
+}
+
+h3{
+    color:#d4ce76;
+    font-family: 'Oxanium', cursive;
+    font-size: clamp(2vw, 2vw, 2.5vw);
+}
+
+.logo__pokemon{
+    width: 40%;
+}
+
+.page__information{
+    position: absolute;
+    width: 35%;
+    left: 10%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+#texto{
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translate(-29%,190%);
+}
+
+#texto2{
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translate(12%,70%);
+}
+
+#texto3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    right: 23%;
+    top: 50%;
+    transform: translate(0%, 250%);
+}
+
+
+.input__search {
+    font-size: clamp(1.5vw, 1.5vw, 3.5vw);
+    width:15%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+}
+
+
+button {
+    font-size: clamp(1vw, 1vw, 2vw);
+    padding: 0.5%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+}
+
+button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+
+.pokemon_image{
+    width: 30%;
+    position: relative;
+    top: 50%;
+    right: 5%;
+    transform: translate(90%, -55%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cards h4{
+    font-size: clamp(1.7vw, 1.7vw, 4vw);
+}
+
+#cards h5{
+    font-size: clamp(1.5vw, 1.5vw, 3.5vw);
+}
+
+#cards h6{
+    font-size: clamp(1vw, 1vw, 2vw);
+}
+
+.logo__Card{
+    width: 25%;
+    padding-bottom: 5%;
+}
+
+.card__flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    position: absolute;
+    width: 30%;
+}
+
+.imagePokemon__card{
+    position: relative;
+    width: 15%;
+    top: 70%;
+    left: 11%;
+    transform: translate(-60%, 40%);
+    height: 18%;
+}
+
+.card__informations{
+    position: relative;
+}
+
+.header__card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-58%, -580%);
+}
+
+.body__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    top:50%;
+    left: 10%;
+    transform: translate(-27%, 58%);
+}
+
+.footer__card{
+    position: relative;
+    top:50%;
+    left:39%;
+    transform: translate(0%,260%);
+}
