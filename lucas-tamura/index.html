@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Image/Icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap">
+    <script defer src="script.js"></script>
+    
+    <title>Pokedex</title>
+</head>
+<header>
+    <img class="logo__pokemon" src="/Image/Pokemon-Logo.png" alt="Logotipo Pokemon">
+</header>
+<body>
+    <div class="informacoes">        
+
+        <div class="informaion">
+            <img class="page__information" src="/Image/Informativo.png" /> 
+            <div class="texts">
+                <h1 id="texto"><span class="Pokemon__Nome"> </span></h1>
+
+                <div id="texto2">
+                    <div class="flex">                        
+                        <h2>Number:</h2> 
+                        <h3>#0<span class="Pokemon__Number"></span></h3>
+                    </div>
+
+                    <div class="flex">
+                        <h2>Type:</h2>
+                        <h3><span class="pokemon__type"></span></h3>
+                    </div>
+
+                    <div class="flex">
+                        <h2>HP:</h2>
+                        <h3><span class="pokemon__hp"></span></h3>
+                    </div>
+
+                    <div class="flex">
+                        <h2>Weight:</h2>
+                        <h3><span class="pokemon__weight"></span>kg</h3> 
+                    </div>
+
+                    <div class="flex">
+                        <h2>Height:</h2>
+                        <h3><span class="pokemon__height"></span>m</h3>
+                    </div>
+                </div>
+                <div id="texto3">
+                        
+                    <form class="form">
+                        <input
+                        type="search"
+                        class="input__search"
+                        placeholder="Name or Number"
+                        required
+                        />
+                    </form>
+                    
+                    <div class="center gap">
+                        <button class="button btn-prev">&lt; Prev</button>
+                        <button class="button btn-next">Next &gt;</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <img class="pokemon_image" src="#" alt="pokemon" class="pokemon__image">
+    
+    
+    <div id="cards" class="container">
+        <section id="cards">
+            <div id="image__title">
+                <img class="logo__Card" src="/Image/Logo_card_Pokemon.png" alt="Logo Pokemon Card">
+            </div>
+            <div class="card__flex-box">
+                <img class="card" src="/Image/Card.png" alt="Imagem Carta de Pokemon">
+                <img class="imagePokemon__card" src="#" alt="">
+
+                <div class="card__informations">
+                    <div class="header__card">
+                        <h6>
+                            <span 
+                            style="background-color: yellow; border-radius: 150px; padding: 9%; border: 2px solid #000;" 
+                            class="card__type">
+                                Eletric
+                            </span>
+                        </h6>
+                        <h4>
+                            <span class="card__name">Pikachu</span>
+                        </h4>
+
+                        <h6>HP <span class="card__hp">45</span></h6>
+                    </div>
+
+                    <div class="body__card">
+
+                        <div>
+                            <h4>Attack <span class="card__attack">45</span></h4>
+                        </div>
+                        <div>
+                            <h4>Defense <span class="card__defense">45</span></h4>
+                        </div>
+                        <div>
+                            <h4>Special-Attack <span class="card__especialattack">45</span></h4>
+                        </div>
+                        <div>
+                            <h4>Special-Defense <span class="card__especialdefense">45</span></h4>
+                        </div>
+                        <div>
+                            <h4>Speed <span class="card__speed">45</span></h4>
+                        </div>
+                    </div>
+
+                    <div class="footer__card">
+                        <h5>Abilities</h5>
+                        <h6>
+                            <span class="abilityOne">Static</span>
+                            |
+                            <span class="abilityTwo">Lightning-rod</span>
+                        </h6>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
