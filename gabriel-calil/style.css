@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    /*background-color: #87CEFA;*/
+    background-color: whitesmoke;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.btn{
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 10pt;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10pt;
+    border: solid white 2px;
+    color: white;
+    background: none;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: #7d1c8a;
+    border-color: #7d1c8a;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-home{
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 10pt;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10pt;
+    border: solid white 2px;
+    color: white;
+    background: none;
+}
+
+.btn-home:hover{
+    background-color: whitesmoke;
+    color: #7d1c8a;
+    border-color: #7d1c8a;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-sub{
+    font-family: Montserrat;
+    color:white;
+    background-color:#7d1c8a;
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 10pt;
+    box-shadow: inset;
+    width: 300px;
+    height: 45px;
+    border:solid whitesmoke 2px;
+    border-radius: 10pt;
+}
+
+.btn-sub:hover{
+    background-color: #ac2abd;
+    border: none;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.titulo1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 40px;
+}
+
+.titulo-home{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 5px;
+}
+
+.texto-home{
+    font-size: 30px;
+    color: 	#D3D3D3;
+    font-family: Montserrat;
+}
+
+.texto1{
+    font-size: 20px;
+    color: 	#D3D3D3;
+    font-family: Montserrat;
+}
+
+.titulo2{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    color:#82248f;
+}
+
+.titulo3{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    color:#82248f;
+    margin-bottom: 0%;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px){
+
+    .div-metade{
+        background: linear-gradient(
+        90deg,
+        rgb(113, 17, 126) 10%,
+        rgba(146, 37, 137, 0.938) 90%
+      );
+    }
+
+    .div-conta{
+        background: linear-gradient(
+        90deg,
+        rgb(113, 17, 126) 10%,
+        rgba(146, 37, 137, 0.938) 90%
+      );
+      height: 100%;
+    }
+
+    .div-login{
+        height: 100%;
+    }
+
+    .titulo2{
+        font-family: Montserrat;
+        margin-top: 10%;
+        top: 10%;
+    }
+
+    .titulo3{
+        font-family: Montserrat;
+        margin-top: 5%;
+        top: 5%;
+    }
+
+    .form_cadastro{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .form_login{
+        top: 5%;
+        width: 50%;
+        left: 25%;
+        position: relative;
+    }
+
+    .form_search{
+        top: 0%;
+        width: 30%;
+        left: 35%;
+        position: relative;
+    }
+
+    .form-control:focus{
+        border-color: #82248f;  
+        box-shadow: none; 
+        -webkit-box-shadow: none;
+    }
+    
+
+}
